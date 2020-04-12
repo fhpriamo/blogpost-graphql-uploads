@@ -1,0 +1,18 @@
+{
+  "name": "blogpost-graphql-uploads",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Fábio Priamo",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.12.0",
+    "aws-sdk": "^2.656.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.0.0",
+    "uuid": "^7.0.3"
+  }
+}
