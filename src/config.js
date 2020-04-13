@@ -12,4 +12,8 @@ module.exports = {
       Bucket: process.env.AWS_S3_BUCKET,
     },
   },
+  app: {
+    storageDir: process.env.APP_STORAGE_DIR || 'app',
+    port: process.env.APP_PORT || '4002',
+  }
 };
